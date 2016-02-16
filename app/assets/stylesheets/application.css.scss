@@ -13,3 +13,50 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+body {
+  text-align: center;
+  background-color: #223847;
+}
+
+h1{
+  font-weight: bold;
+  color: #f2984c;
+}
+.calculator {
+  border: medium solid #5f8f86;
+  width: 250px;
+  padding-top: 20px;
+  border-radius: 5px;
+  background-color: #ed2b36;
+}
+
+.result {
+  border: thin solid #5f8f86;
+  width: 200px;
+  height: 40px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: silver;
+}
+
+.result p{
+  float: right;
+  margin-right: 5px;
+  font-size: 30px;
+}
+
+.btn {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  text-align: center;
+  font-weight: bold;
+  background-color: silver;
+}
+
+#equals {
+  width: 90px;
+}
